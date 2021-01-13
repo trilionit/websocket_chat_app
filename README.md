@@ -1,2 +1,9 @@
 # websocket_chat_app
-Websocket chat app using NodeJS with Websockets and MySQL for storage.
+Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend and a custom UI
+## Usage
+npm install
+npm run dev
+
+Go to localhost:3000
+```
+
