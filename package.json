@@ -1,0 +1,35 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "Chat App using NodeJS, WebSocket, Passport and Vanilla Javascript",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trilionit/websocket_chat_app.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "keywords": [
+    "javascript",
+    "websocket"
+  ],
+  "author": "Prince Osei-Akyeampong",
+  "license": "MIT"
+}
